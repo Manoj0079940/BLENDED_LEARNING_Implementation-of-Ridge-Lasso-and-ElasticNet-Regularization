@@ -10,21 +10,26 @@ To implement Ridge, Lasso, and ElasticNet regularization models using polynomial
 
 ## Algorithm
 1.Import the necessary libraries.
+
 2.Load the dataset.
+
 3.Preprocess the data (handle missing values, encode categorical variables).
+
 4.Split the data into features (X) and target (y).
+
 5.Create polynomial features.
+
 6.Set up pipelines for Ridge, Lasso, and ElasticNet models.
+
 7.Fit the models on the training data.
+
 8.Evaluate model performance using R² score and Mean Squared Error.
+
 9.Compare the results.
 ## Program:
 ```
-/*
-Program to implement Ridge, Lasso, and ElasticNet regularization using pipelines.
 Developed by: MANOJ M
 RegisterNumber:  212223230122
-*/
 
 # Importing necessary libraries
 import pandas as pd
